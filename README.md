@@ -7,13 +7,20 @@ The Gazara Grocery Store  is a multi-platform application (Mobile App, Web App, 
 File : `MobileApp.csv`
 - Contains step-by-step test cases for validating the mobile application's functionality.
 - Covers scenarios including:
-    1- Sign-Up : Phone number, email, social media login (Facebook/Google).
-    2- Login : Valid and invalid credentials, forgot password flow.
-    3- Cart and Favorites Management : Adding/removing items, handling out-of-stock items, and cart persistence.
-    4- Payment Processing : Credit card validation, first-time orders restrictions, and order cancellation.
-    5- Offline Mode : Behavior when internet connectivity is lost.
-    6- Real-time stock updates.
-    7- Profile editing.
+
+  1- Sign-Up : Phone number, email, social media login (Facebook/Google).
+
+  2- Login : Valid and invalid credentials, forgot password flow.
+
+  3- Cart and Favorites Management : Adding/removing items, handling out-of-stock items, and cart persistence.
+
+  4- Payment Processing : Credit card validation, first-time orders restrictions, and order cancellation.
+
+  5- Offline Mode : Behavior when internet connectivity is lost.
+
+  6- Real-time stock updates.
+
+  7- Profile editing.
              
 ### Web Application Test Cases (Coming Soon) 
 Will include test cases for the web-based version of the Gazara Grocery Store.
