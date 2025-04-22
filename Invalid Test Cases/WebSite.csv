@@ -1,5 +1,5 @@
 Key,Name,Status,Precondition,Objective,Folder,Priority,Component,Labels,Owner,Estimated Time,Coverage (Issues),Coverage (Pages),Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Test Script (Plain Text),Test Script (BDD)
-KAN-T51,Validate Access restrictions on cart for non-logged-in users,Approved,,,/Invalid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Attempt to View the cart without logging in.,,Users cannot view the cart without logging in.,,
+KAN-T51,Validate Access restrictions on cart for non-logged-in users,Approved,,,/Invalid Test Cases/Web Site/Cart,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Attempt to View the cart without logging in.,,Users cannot view the cart without logging in.,,
 ,,,,,,,,,,,,,Attempt to add an item to the cart without logging in.,,Users cannot add items to the cart without logging in.,,
 KAN-T52,Validate Access restrictions on payment for non-logged-in users,Approved,,,/Invalid Test Cases/Web Site/Delivery and Payment,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Attempt to proceed with order and pay without logging in.,,Users cannot proceed to payment without logging in.,,
 KAN-T55,Validate Sign-up via email with Invalid data,Approved,,,/Invalid Test Cases/Web Site/Sign-up and log-in,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to Sign-up Page.,,,,
@@ -20,7 +20,7 @@ an option to proceed to checkout.",,The cart overview and order summary are disp
 ",,A new window opens displaying Checkout Page.,,
 ,,,,,,,,,,,,,"Verify Entering Numbers in (First Name, Last Name, Region) Fields.",fat123ma ,Error Message appears.,,
 ,,,,,,,,,,,,,"Verify Entering Alphabets in (Phone Number, Postal Code) Fields or Invalid 
-Phone Number.",1000000000,Error Message appears.,,
+Phone Number.",01000000000 ,Error Message appears.,,
 ,,,,,,,,,,,,,Verify Empty Fields.,,Error Message appears.,,
 ,,,,,,,,,,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
@@ -51,7 +51,7 @@ depends on the inputs.",,
    2. ""Month must be between 01 and 12"" or
    3. ""Invalid expiry date. Please use MM/YY format""
 depends on the inputs.",,
-,,,,,,,,,,,,,Enter invalid CVV.,12,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
+,,,,,,,,,,,,,Enter invalid CVV.,12 ,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
 appears.",,
 ,,,,,,,,,,,,,Try Complete Transaction with Blank Fields.,,Required Fields Error Message appears.,,
 ,,,,,,,,,,,,,Enter Invalid Card Name or Empty Name.,Invalid Name ,"Error Messages appears:
@@ -72,7 +72,7 @@ depends on the inputs.",,
    2. ""Month must be between 01 and 12"" or
    3. ""Invalid expiry date. Please use MM/YY format""
 depends on the inputs.",,
-,,,,,,,,,,,,,Enter invalid CVV.,12354,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
+,,,,,,,,,,,,,Enter invalid CVV.,12354 ,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
 appears.",,
 ,,,,,,,,,,,,,Try Complete Transaction with Blank Fields.,,Required Fields Error Message appears.,,
 ,,,,,,,,,,,,,Enter Invalid Card Name or Empty Name.,Invalid Name ,"Error Messages appears:
@@ -124,14 +124,14 @@ displayed.",,
 ""+"" button becomes disabled visually (greyed out) when reaching 12kg.",,
 ,,,,,,,,,,,,,Attempt to set the quantity to a negative value using the quantity button.,,"""-"" button becomes disabled visually (greyed out).",,
 KAN-T73,Validate Search for invalid item in search bar,Approved,,,/Invalid Test Cases/Web Site/Home Page and Search,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Type invalid item in the search bar.,Capacitors ,No irrelevant recommendations appear.,,
-KAN-T78,Validate search functionality without internet,Approved,,,/Invalid Test Cases/Web Site/Profile and Internet ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Go offline.,,,,
+KAN-T78,Validate search functionality without internet,Approved,,,/Invalid Test Cases/Web Site/Profile and Internet,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Go offline.,,,,
 ,,,,,,,,,,,,,Enter search term in search bar.,,"Message: ""Search unavailable offline"".",,
-KAN-T79,Validate Payment without internet connection,Approved,,,/Invalid Test Cases/Web Site/Profile and Internet ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Disable internet connection and Attempt to Load payment page, Enter payment 
+KAN-T79,Validate Payment without internet connection,Approved,,,/Invalid Test Cases/Web Site/Profile and Internet,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Disable internet connection and Attempt to Load payment page, Enter payment 
 details.",,"System detects offline state immediately.
 Error message: ""Payment unavailable offline. Please reconnect"".",,
 ,,,,,,,,,,,,,Try Disable internet mid-transaction.,,"System detects offline state immediately.
 Error message: ""Payment unavailable offline. Please reconnect"".",,
-KAN-T80,Validate Editable Profile info with invalid data,Approved,,,/Invalid Test Cases/Web Site/Profile and Internet ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
+KAN-T80,Validate Editable Profile info with invalid data,Approved,,,/Invalid Test Cases/Web Site/Profile and Internet,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
 ,,,,,,,,,,,,,"Verify that a drop-down menu appears with options: ""My Orders,"" ""My 
 Wallet,"" ""My Account,"" and ""Logout"".",,The drop-down menu is displayed correctly.,,
 ,,,,,,,,,,,,,"Navigate to ""My Account"".",,,,
@@ -141,7 +141,7 @@ address details including ""street"", ""city"" and ""zip code"") is displayed.",
 ,,,,,,,,,,,,,"Edit the information and Click ""Discard"".",,"The system discard any unsaved changes.
 
 ",,
-,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,1000000000,Error message appears.,,
+,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,01000000000 ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid user name in the first name and second name fields.,fat123ma ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid address details in the address field.,,Error message appears.,,
 ,,,,,,,,,,,,,Click the profile icon.,,,,
@@ -154,10 +154,10 @@ address details including ""street"", ""city"" and ""zip code"") is displayed.",
 ,,,,,,,,,,,,,"Edit the information and Click ""Discard"".",,"The system discard any unsaved changes.
 
 ",,
-,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,105315572,Error message appears.,,
+,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,0105315572 ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid user name in the first name and second name fields.,Invalid Name ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid address details in the address field.,,Error message appears.,,
-KAN-T83,Validate Forgot Password functionality with invalid credentials,Approved,,,/Invalid Test Cases/Web Site/Sign-up and log-in ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T83,Validate Forgot Password functionality with invalid credentials,Approved,,,/Invalid Test Cases/Web Site/Sign-up and log-in,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the second bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of the logo on the left, the search bar in the 
 center, and ""Signup/Login"" options on the right.",,"The second bar contains all required elements, and the ""Signup/Login"" 

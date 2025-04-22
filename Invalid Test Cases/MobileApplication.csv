@@ -1,7 +1,7 @@
 Key,Name,Status,Precondition,Objective,Folder,Priority,Component,Labels,Owner,Estimated Time,Coverage (Issues),Coverage (Pages),Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Test Script (Plain Text),Test Script (BDD)
-KAN-T20,Validate login with invalid credentials.,Approved,,,/Invalid Test Cases/Mobile Application/Log-in ,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter non-existing or invalid email.,don't@gmail.com.co ,Error message appears.,,
+KAN-T20,Validate login with invalid credentials.,Approved,,,/Invalid Test Cases/Mobile Application/Log-in,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter non-existing or invalid email.,don't@gmail.com.co ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid password for existing email.,,Error message appears.,,
-KAN-T21,Validate sign-up with invalid phone number,Approved,,,/Invalid Test Cases/Mobile Application/Sign-up ,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T21,Validate sign-up with invalid phone number,Approved,,,/Invalid Test Cases/Mobile Application/Sign-up,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
@@ -21,34 +21,34 @@ button.",,Navigate to the Sign-up screen page.,,
 ,,,,,,,,,,,,,Enter Invalid phone number for correct country code.,"0105315572 
 
 ",Error message appears.,,
-KAN-T22,Validate Enter incorrect OTP,Approved,,,/Invalid Test Cases/Mobile Application/Sign-up ,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T22,Validate Enter incorrect OTP,Approved,,,/Invalid Test Cases/Mobile Application/Sign-up,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,0020 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,01005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,2,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,02 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,+20 ,Display the country flag.,,
 ,,,,,,,,,,,,,Enter valid phone number for country Flag.,Valid Phone Number ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Enter incorrect OTP.,"0000 
 
 ",Error message appears.,,
-KAN-T24,Validate Sign-up with invalid email or password,Approved,,,/Invalid Test Cases/Mobile Application/Sign-up ,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T24,Validate Sign-up with invalid email or password,Approved,,,/Invalid Test Cases/Mobile Application/Sign-up,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
 ,,,,,,,,,,,,,Enter invalid email.,don't@gmail.com.co ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid password for valid email.,,Error message appears.,,
-KAN-T25,Validate Forgot Password functionality with invalid credentials. ,Approved,,,/Invalid Test Cases/Mobile Application/Log-in ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T25,Validate Forgot Password functionality with invalid credentials. ,Approved,,,/Invalid Test Cases/Mobile Application/Log-in,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -58,7 +58,7 @@ KAN-T25,Validate Forgot Password functionality with invalid credentials. ,Approv
 ,,,,,,,,,,,,,Try login with another phone.,,The first device should force logout.,,
 ,,,,,,,,,,,,,Enter non-existing or invalid email.,,Error message appears.,,
 ,,,,,,,,,,,,,Enter a non-matching password in the confirmation field.,,Error message appears.,,
-KAN-T31,Validate items Addition to cart with invalid quantity,Approved,,,"/Invalid Test Cases/Mobile Application/Cart, Favorites and Review  ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T31,Validate items Addition to cart with invalid quantity,Approved,,,"/Invalid Test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -94,7 +94,7 @@ displayed.",,
 ,,,,,,,,,,,,,Confirm categorized items.,,categorized items are displayed.,,
 ,,,,,,,,,,,,,Search for non-grocery items using the search bar.,Capacitors ,"""No results found"" message appears.",,
 ,,,,,,,,,,,,,Search for items using different languages.,,"""No results found"" message appears.",,
-KAN-T39,Validate Payment with invalid Credit Card data,Approved,,,/Invalid Test Cases/Mobile Application/Payment and Order Tracking ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T39,Validate Payment with invalid Credit Card data,Approved,,,/Invalid Test Cases/Mobile Application/Payment and Order Tracking,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
@@ -119,7 +119,7 @@ depends on the inputs.
    2. ""Month must be between 01 and 12"" or
    3. ""Invalid expiry date. Please use MM/YY format""
 depends on the inputs.",,
-,,,,,,,,,,,,,Enter invalid CVV.,12,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
+,,,,,,,,,,,,,Enter invalid CVV.,12 ,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
 appears.
 
 ",,
@@ -149,7 +149,7 @@ depends on the inputs.
    2. ""Month must be between 01 and 12"" or
    3. ""Invalid expiry date. Please use MM/YY format""
 depends on the inputs.",,
-,,,,,,,,,,,,,Enter invalid CVV.,12354,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
+,,,,,,,,,,,,,Enter invalid CVV.,12354 ,"""Invalid CVV. Please enter a 3 or 4-digit security code"" Error Messages 
 appears.
 
 ",,
@@ -184,9 +184,9 @@ appears.
 
 ",,
 ,,,,,,,,,,,,,Try Complete Transaction with Blank Fields.,,Required Fields Error Message appears.,,
-KAN-T41,Validate search functionality without internet,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Go offline.,,,,
+KAN-T41,Validate search functionality without internet,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Go offline.,,,,
 ,,,,,,,,,,,,,Enter search term in search bar.,,"Message: ""Search unavailable offline"".",,
-KAN-T42,Validate cart and favorite list updates without internet,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T42,Validate cart and favorite list updates without internet,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
@@ -196,7 +196,7 @@ KAN-T42,Validate cart and favorite list updates without internet,Approved,,,/Inv
 ,,,,,,,,,,,,,"Attempt to Add new item (cached products), Remove existing item and Change 
 quantities.",,"Message: ""unavailable offline"".",,
 ,,,,,,,,,,,,,Attempt to Add new item or remove from favorite list.,,"Message: ""unavailable offline"".",,
-KAN-T43,Validate Payment without internet connection,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T43,Validate Payment without internet connection,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
@@ -207,7 +207,7 @@ details.",,"System detects offline state immediately.
 Error message: ""Payment unavailable offline. Please reconnect"".",,
 ,,,,,,,,,,,,,Try Disable internet mid-transaction.,,"System detects offline state immediately.
 Error message: ""Payment unavailable offline. Please reconnect"".",,
-KAN-T44,Validate Editable Profile info with invalid data,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T44,Validate Editable Profile info with invalid data,Approved,,,/Invalid Test Cases/Mobile Application/Profile and Internet,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -229,7 +229,7 @@ displayed.",,
 ,,,,,,,,,,,,,"Tap the ""Cart"" Icon.",,Navigate to the Cart page.,,
 ,,,,,,,,,,,,,"Tap the ""Favorite"" Icon.",,Navigate to the Favorite page.,,
 ,,,,,,,,,,,,,"Tap the ""Profile"" Icon.",,Navigate to the Profile page.,,
-,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,1000000000,Error message appears.,,
+,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,01000000000 ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid user name in the user's full name field.,fat123ma ,Error message appears.,,
 ,,,,,,,,,,,,,Upload non picture file in the profile picture field.,,Error message appears.,,
 ,,,,,,,,,,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
@@ -254,6 +254,6 @@ displayed.",,
 ,,,,,,,,,,,,,"Tap the ""Cart"" Icon.",,Navigate to the Cart page.,,
 ,,,,,,,,,,,,,"Tap the ""Favorite"" Icon.",,Navigate to the Favorite page.,,
 ,,,,,,,,,,,,,"Tap the ""Profile"" Icon.",,Navigate to the Profile page.,,
-,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,105315572,Error message appears.,,
+,,,,,,,,,,,,,Enter invalid phone number in the phone number field.,0105315572 ,Error message appears.,,
 ,,,,,,,,,,,,,Enter invalid user name in the user's full name field.,Invalid Name ,Error message appears.,,
 ,,,,,,,,,,,,,Upload non picture file in the profile picture field.,,Error message appears.,,

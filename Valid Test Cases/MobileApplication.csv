@@ -1,62 +1,62 @@
 Key,Name,Status,Precondition,Objective,Folder,Priority,Component,Labels,Owner,Estimated Time,Coverage (Issues),Coverage (Pages),Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Test Script (Plain Text),Test Script (BDD)
-KAN-T1,Verify Welcome Page Displays with Get Started Button,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T1,Verify Welcome Page Displays with Get Started Button,Approved,,,/Valid test Cases/Mobile Application/Sign-up,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-KAN-T2,Verify sign up with phone number,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T2,Verify sign up with phone number,Approved,,,/Valid test Cases/Mobile Application/Sign-up,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,0020 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,01005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,2,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,02 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,+20 ,Display the country flag.,,
 ,,,,,,,,,,,,,Enter valid phone number for country Flag.,Valid Phone Number ,Receive 4-digits OTP via messages.,,
-KAN-T3,Verify OTP Verification,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T3,Verify OTP Verification,Approved,,,/Valid test Cases/Mobile Application/Sign-up,High,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,0020 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,01005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,2,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,02 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,+20 ,Display the country flag.,,
 ,,,,,,,,,,,,,Enter valid phone number for country Flag.,Valid Phone Number ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,"Enter valid 4-digits OTP to Four individual fields.
 
 ",,Navigate to the Set Location page.,,
 ,,,,,,,,,,,,,Wait 90 seconds.,,"""Resend Code"" Button is disabled, then Automatically sending new OTP.",,
 ,,,,,,,,,,,,,"Wait 90 seconds then Tap ""Resend Code""",,Resend the OTP to the user's mobile number.,,
-KAN-T4,Verify sign up with facebook,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T4,Verify sign up with facebook,Approved,,,/Valid test Cases/Mobile Application/Sign-up,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
 ,,,,,,,,,,,,,"Tap ""Continue with Facebook"" buttons.",,Integrate with Facebook login API.,,
 ,,,,,,,,,,,,,Confirm Sign-up with Facebook.,,,,
-KAN-T5,Verify sign up with google,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T5,Verify sign up with google,Approved,,,/Valid test Cases/Mobile Application/Sign-up,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
 ,,,,,,,,,,,,,"Tap ""Continue with Google"" Button",,Integrate with Google login API.,,
 ,,,,,,,,,,,,,Confirm sign-up with google.,,,,
-KAN-T6,Verify sign up with email,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T6,Verify sign up with email,Approved,,,/Valid test Cases/Mobile Application/Sign-up,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
@@ -65,23 +65,23 @@ button.",,Navigate to the Sign-up screen page.,,
 ,,,,,,,,,,,,,Enter password and try password masking 'eye' icon.,,Display in hidden characters.,,
 ,,,,,,,,,,,,,"Tap ""Sign Up"" Button.",,Receive confirmation message via email.,,
 ,,,,,,,,,,,,,"Tap ""Already have an account? login"" Link.",,Navigate to the Login Page.,,
-KAN-T7,Verify Location Selection via Dropdowns,Approved,,,/Valid Test Cases/Mobile Application/Sign-up ,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
+KAN-T7,Verify Location Selection via Dropdowns,Approved,,,/Valid test Cases/Mobile Application/Sign-up,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,0020 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,01005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,2,Display the country flag.,,
-,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572,Receive 4-digits OTP via messages.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,02 ,Display the country flag.,,
+,,,,,,,,,,,,,Enter valid phone number for country Flag.,1005315572 ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,Launch the application.,,,,
 ,,,,,,,,,,,,,"Verify welcome page and ""Get Started"" button appear.",,"A ""Get Started"" button is displayed under the welcome message.",,
 ,,,,,,,,,,,,,"Verify redirection to the Sign-up screen page upon tapping ""Get Started"" 
 button.",,Navigate to the Sign-up screen page.,,
-,,,,,,,,,,,,,Enter country code and verify flag updates.,20,Display the country flag.,,
+,,,,,,,,,,,,,Enter country code and verify flag updates.,+20 ,Display the country flag.,,
 ,,,,,,,,,,,,,Enter valid phone number for country Flag.,Valid Phone Number ,Receive 4-digits OTP via messages.,,
 ,,,,,,,,,,,,,"Enter valid 4-digits OTP to Four individual fields.
 
@@ -92,7 +92,7 @@ button.",,Navigate to the Sign-up screen page.,,
 ,,,,,,,,,,,,,"Tap the ""Your Area"" dropdown.",,Display a list of available areas based on the selected government.,,
 ,,,,,,,,,,,,,"Tap the ""submit"" button.",,Validate the dropdown fields and submit the selected location.,,
 ,,,,,,,,,,,,,"Tap the ""Back"" button.",,Navigate the user back to the previous screen.,,
-KAN-T10,Verify Login Functionality,Approved,,,/Valid Test Cases/Mobile Application/Log-in ,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T10,Verify Login Functionality,Approved,,,/Valid test Cases/Mobile Application/Log-in,Normal,,Required,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -100,7 +100,7 @@ KAN-T10,Verify Login Functionality,Approved,,,/Valid Test Cases/Mobile Applicati
 ",,"Navigate to the ""Forgot Password"" page.",,
 ,,,,,,,,,,,,,"Tap the ""Don't have an account? signup"" link.",,Navigate to the Signup Page.,,
 ,,,,,,,,,,,,,Try login with another phone.,,The first device should force logout.,,
-KAN-T11,Verify forget password functionality ,Approved,,,/Valid Test Cases/Mobile Application/Log-in ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T11,Verify forget password functionality ,Approved,,,/Valid test Cases/Mobile Application/Log-in,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -113,7 +113,7 @@ KAN-T11,Verify forget password functionality ,Approved,,,/Valid Test Cases/Mobil
 ,,,,,,,,,,,,,"Enter a new password twice and Enter ""Set New Password"" Button.",,Update password in the system.,,
 ,,,,,,,,,,,,,Try login with email and the new password.,,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Back to Login"" link.",,Navigate back to the Login page.,,
-KAN-T13,Verify home page display,Approved,,,/Valid Test Cases/Mobile Application/Home and Explore ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T13,Verify home page display,Approved,,,/Valid test Cases/Mobile Application/Home and Explore,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -128,7 +128,7 @@ KAN-T13,Verify home page display,Approved,,,/Valid Test Cases/Mobile Application
 and ""Profile"".",,"Icons for ""Shop"",""Explore,"" ""Cart,"" ""Favorite,"" and ""Profile"" are 
 displayed.",,
 ,,,,,,,,,,,,,Confirm categorized items.,,categorized items are displayed.,,
-KAN-T14,Verify Navigation Bar Icons,Approved,,,/Valid Test Cases/Mobile Application/Home and Explore ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T14,Verify Navigation Bar Icons,Approved,,,/Valid test Cases/Mobile Application/Home and Explore,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -150,19 +150,19 @@ displayed.",,
 ,,,,,,,,,,,,,"Tap the ""Cart"" Icon.",,Navigate to the Cart page.,,
 ,,,,,,,,,,,,,"Tap the ""Favorite"" Icon.",,Navigate to the Favorite page.,,
 ,,,,,,,,,,,,,"Tap the ""Profile"" Icon.",,Navigate to the Profile page.,,
-KAN-T15,Verify Item Addition to cart,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T15,Verify Item Addition to cart,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
-KAN-T16,Verify Item View in the cart,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T16,Verify Item View in the cart,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
 ,,,,,,,,,,,,,Confirm displaying all items added to the cart with the total cost.,,All items in the cart are displayed with the total cost,,
 ,,,,,,,,,,,,,"Tap ""Proceed to Checkout"" button.",,Navigate to the checkout process.,,
-KAN-T17,Verify item addition to the Favorites List,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Tap the item.,,Navigate to item information.,,
+KAN-T17,Verify item addition to the Favorites List,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Tap the favorite icon.,,Add the current item to the favorites section.,,
-KAN-T18,Verify Explore Page Functionality,Approved,,,/Valid Test Cases/Mobile Application/Home and Explore ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T18,Verify Explore Page Functionality,Approved,,,/Valid test Cases/Mobile Application/Home and Explore,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -185,7 +185,7 @@ displayed.",,
 ,,,,,,,,,,,,,"Tap the ""Favorite"" Icon.",,Navigate to the Favorite page.,,
 ,,,,,,,,,,,,,"Tap the ""Profile"" Icon.",,Navigate to the Profile page.,,
 ,,,,,,,,,,,,,Confirm uncategorized items.,,uncategorized items are displayed.,,
-KAN-T19,Verify Editable Profile Info with Valid Data,Approved,,,/Valid Test Cases/Mobile Application/Profile and Internet ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T19,Verify Editable Profile Info with Valid Data,Approved,,,/Valid test Cases/Mobile Application/Profile and Internet,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -212,12 +212,12 @@ displayed.",,
 
 ",,,,
 ,,,,,,,,,,,,,Enter the user's full name.,Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr. Go ,update user data.,,
-,,,,,,,,,,,,,Enter valid phone number,1005315572,update user data.,,
+,,,,,,,,,,,,,Enter valid phone number,01005315572 ,update user data.,,
 ,,,,,,,,,,,,,Confirm and select a display location from the dropdown.,,update user data.,,
 ,,,,,,,,,,,,,Confirm and select a payment method from the display locations dropdown.,,update user data.,,
 ,,,,,,,,,,,,,"Tap the ""profile picture"" and browse for a picture.",,Update user profile picture.,,
 ,,,,,,,,,,,,,"Tap the ""Log Out"" button.",,Navigate to the Login Page.,,
-KAN-T26,Verify item view in the favorite list,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T26,Verify item view in the favorite list,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -245,15 +245,15 @@ displayed.",,
 and accurate pricing calculations.",,"All favorite items display correctly with quantity controls and accurate 
 pricing calculations.",,
 ,,,,,,,,,,,,,"Tap ""Add All to Cart"" button.",,Add all favorite items to the cart.,,
-KAN-T27,Verify Review Item Functionality,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Tap the item.,,Navigate to item information.,,
+KAN-T27,Verify Review Item Functionality,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Submit product reviews using the 0-5 stars rating scale.,,Submitted rating displays accurately.,,
-KAN-T28,Verify Cart Persistence,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T28,Verify Cart Persistence,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
 ,,,,,,,,,,,,,Close and reopen the application.,,,,
 ,,,,,,,,,,,,,Navigate to the Cart.,,Cart items persist across app sessions.,,
-KAN-T29,Verify system behavior for out-of-stock items in cart,Approved,,,"/Valid Test Cases/Mobile Application/Cart, Favorites and Review ",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T29,Verify system behavior for out-of-stock items in cart,Approved,,,"/Valid test Cases/Mobile Application/Cart, Favorites and Review",Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
@@ -262,13 +262,13 @@ KAN-T29,Verify system behavior for out-of-stock items in cart,Approved,,,"/Valid
 ""Proceed""Checkout button becomes disabled.
 
 ",,
-KAN-T30,Verify Real-Time stock status updates,Approved,,,/Valid Test Cases/Mobile Application/Home and Explore ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Force items stock to 'out of stock' (via admin panel),,,,
+KAN-T30,Verify Real-Time stock status updates,Approved,,,/Valid test Cases/Mobile Application/Home and Explore,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Force items stock to 'out of stock' (via admin panel),,,,
 ,,,,,,,,,,,,,"Check Cart page, Home page, Explore page and Favorites page.",," The items update to ""Out of Stock"" status within 5 seconds.",,
 ,,,,,,,,,,,,,"Force items stock to 'in stock' (via admin panel)
 
 ",,,,
 ,,,,,,,,,,,,,"Check Cart page, Home page, Explore page and Favorites page.",,The items show normal status.,,
-KAN-T32,Verify Payment Method Restrictions for First-Time Orders,Approved,New user's account with no order history.,,/Valid Test Cases/Mobile Application/Payment and Order Tracking ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
+KAN-T32,Verify Payment Method Restrictions for First-Time Orders,Approved,New user's account with no order history.,,/Valid test Cases/Mobile Application/Payment and Order Tracking,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Browse to an available product (in-stock),,,,
 ,,,,,,,,,,,,,Tap the item.,,Navigate to item information.,,
 ,,,,,,,,,,,,,Set a quantity to the maximum allowed value (12kg).,,Displays the set quantity and the price.,,
 ,,,,,,,,,,,,,"Tap ""Add to Cart"" Button.",,item added to the cart with the selected quantity.,,
@@ -278,7 +278,7 @@ KAN-T32,Verify Payment Method Restrictions for First-Time Orders,Approved,New us
 ,,,,,,,,,,,,,Enter Promocode if available.,,Automatically update the order total price.,,
 ,,,,,,,,,,,,,Check available payment methods.,,"""Credit card"" payment must be available.
 ""Cash on Delivery"" option should be disabled/grayed.",,
-KAN-T33,Verify Search Bar functionality,Approved,,,/Valid Test Cases/Mobile Application/Home and Explore ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T33,Verify Search Bar functionality,Approved,,,/Valid test Cases/Mobile Application/Home and Explore,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.
@@ -329,7 +329,7 @@ displayed.",,
 ,,,,,,,,,,,,,Confirm categorized items.,,categorized items are displayed.,,
 ,,,,,,,,,,,,,Enter one letter in the search bar.,,Display suggested words based on the first letter.,,
 ,,,,,,,,,,,,,Search for grocery items using the search bar.,Chillis ,Relevant grocery items appear on the home page.,,
-KAN-T36,Verify Payment Method Selection,Approved,,,/Valid Test Cases/Mobile Application/Payment and Order Tracking ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Confirm the order total price.,,,,
+KAN-T36,Verify Payment Method Selection,Approved,,,/Valid test Cases/Mobile Application/Payment and Order Tracking,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Confirm the order total price.,,,,
 ,,,,,,,,,,,,,Enter Promocode if available.,,Automatically update the order total price.,,
 ,,,,,,,,,,,,,Check available payment methods.,,"""Credit card"" payment must be available.
 ""Cash on Delivery"" option must be available.",,
@@ -341,19 +341,19 @@ Navigate to ""Your Order Has been Placed"" Page.",,
 ,,,,,,,,,,,,,"Select ""Cash on Delivery"" option and Attempt to place the order.",,"Order confirmation received.
 Order appears in user's order history.
 Navigate to ""Your Order Has been Placed"" Page.",,
-KAN-T37,"Verify ""Order Has been Placed Page"" Functionality",Approved,Already Placed an Order.,,/Valid Test Cases/Mobile Application/Payment and Order Tracking ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Tap the ""Track Order"" button.",,Navigate to Order Tracking Page.,,
+KAN-T37,"Verify ""Order Has been Placed Page"" Functionality",Approved,Already Placed an Order.,,/Valid test Cases/Mobile Application/Payment and Order Tracking,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Tap the ""Track Order"" button.",,Navigate to Order Tracking Page.,,
 ,,,,,,,,,,,,,"Tap the ""Back to Home Page"" button.",,Navigate to Home Page.,,
-KAN-T38,Verify Order Cancellation at Various Stages,Approved,Active order exists in the system.,,/Valid Test Cases/Mobile Application/Payment and Order Tracking ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"During payment processing, click ""Cancel Order""",,Cancellation succeeds immediately.,,
+KAN-T38,Verify Order Cancellation at Various Stages,Approved,Active order exists in the system.,,/Valid test Cases/Mobile Application/Payment and Order Tracking,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"During payment processing, click ""Cancel Order""",,Cancellation succeeds immediately.,,
 ,,,,,,,,,,,,,Try cancel the Pending order.,,Cancellation succeeds immediately.,,
 ,,,,,,,,,,,,,Try cancel order during processing.,,Cancellation succeeds.,,
 ,,,,,,,,,,,,,Try cancel after shipping.,,Cancellation succeeds.,,
 KAN-T40,Verify cached pages load without internet,Approved,"Open app with internet (cache pages).
 
-",,/Valid Test Cases/Mobile Application/Profile and Internet ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Disable the internet connection.,,,,
+",,/Valid test Cases/Mobile Application/Profile and Internet,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Disable the internet connection.,,,,
 ,,,,,,,,,,,,,Reload home page.,,,,
 ,,,,,,,,,,,,,Navigate to previously visited product pages.,,"Cached pages load from local storage.
 Visible ""Offline Mode"" indicator.",,
-KAN-T65,Card Payment Validation,Approved,,,/Valid Test Cases/Mobile Application/Payment and Order Tracking ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter a valid card number (16 digits).,4111,"card type (Visa, Mastercard, etc.) is detected and displayed dynamically 
+KAN-T65,Card Payment Validation,Approved,,,/Valid test Cases/Mobile Application/Payment and Order Tracking,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter a valid card number (16 digits).,4111 ,"card type (Visa, Mastercard, etc.) is detected and displayed dynamically 
 based on the first 4 digits.
 pass Luhn’s Algorithm for credit card number validation.
 Displays the input as ""**** **** **** 1234"" for security.",,
@@ -373,7 +373,7 @@ Navigate to ""Your Order Has been Placed"" Page.",,
 ,,,,,,,,,,,,,"Enter a valid name on card (alphabets (A-Z, a-z), spaces, and hyphens) with 
 (2 characters min to 50 characters max).",,,,
 ,,,,,,,,,,,,,Enter a valid CVV (3-4 digits depending on the card type).,,"Masks input as ""***"" for security.",,
-,,,,,,,,,,,,,Enter a valid card number (16 digits).,5100,"card type (Visa, Mastercard, etc.) is detected and displayed dynamically 
+,,,,,,,,,,,,,Enter a valid card number (16 digits).,5100 ,"card type (Visa, Mastercard, etc.) is detected and displayed dynamically 
 based on the first 4 digits.
 pass Luhn’s Algorithm for credit card number validation.
 Displays the input as ""**** **** **** 1234"" for security.",,
