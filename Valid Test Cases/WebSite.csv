@@ -226,6 +226,7 @@ center, and ""Signup/Login"" options on the right.",,"The second bar contains al
 options are functional.",,
 ,,,,,,,,,,,,,"Click ""Login"" link.",,,,
 ,,,,,,,,,,,,,"Verify that users have the option to login via Google, Facebook, or email.",,"Users can login using any method, and validation rules are applied.",,
+,,,,,,,,,,,,,"Check for the presence of the ""Login User Name"" on the right.",,"The second bar display ""Login User Name"" after logining.",,
 KAN-T82,Verify forget password functionality,Approved,,,/Valid test Cases/Web Site/Sign-up and log-in,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the second bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of the logo on the left, the search bar in the 
@@ -233,6 +234,7 @@ center, and ""Signup/Login"" options on the right.",,"The second bar contains al
 options are functional.",,
 ,,,,,,,,,,,,,"Click ""Login"" link.",,,,
 ,,,,,,,,,,,,,"Verify that users have the option to login via Google, Facebook, or email.",,"Users can login using any method, and validation rules are applied.",,
+,,,,,,,,,,,,,"Check for the presence of the ""Login User Name"" on the right.",,"The second bar display ""Login User Name"" after logining.",,
 ,,,,,,,,,,,,,Enter the valid Email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,"Tap the ""Send"" button.",,Send a reset password email to the provided email.,,
 ,,,,,,,,,,,,,"Enter a new password twice and Enter ""Set New Password"" Button.",,Update password in the system.,,
