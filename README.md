@@ -39,8 +39,10 @@ File : `WebSite.csv`
   3- Payment Processing : Credit card validation, first-time orders restrictions.
 
   4- Offline Mode : Behavior when internet connectivity is lost.
+
+  5- Real-time stock updates.
   
-  5- Profile editing.   
+  6- Profile editing.   
   
 ### Admin Panel Test Cases (Coming Soon) 
 Will include test cases for the admin dashboard, including user management, inventory updates, and order tracking.
