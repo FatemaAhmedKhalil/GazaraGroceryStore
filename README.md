@@ -4,9 +4,9 @@ The Gazara Grocery Store  is a multi-platform application (Mobile App, Web App, 
 
 ## Test Case Files
 1. Valid Test Cases 
-  - Contains step-by-step test cases for validating the functionality under normal conditions.
+    - Contains step-by-step test cases for validating the functionality under normal conditions.
 2. Invalid Test Cases 
-   - Contains step-by-step test cases for validating the response to incorrect or unexpected inputs.
+    - Contains step-by-step test cases for validating the response to incorrect or unexpected inputs.
 ### Mobile Application Test Cases 
 File : `MobileApplication.csv`
 - Contains step-by-step test cases for the mobile application's functionality.
