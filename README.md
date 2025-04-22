@@ -32,17 +32,19 @@ File : `WebSite.csv`
 - Contains step-by-step test cases for the web site's functionality.
 - Covers scenarios including:
 
-  1- Sign-Up and Login : email, social media login (Facebook/Google), forgot password flow..
+  1- Sign-Up : Phone number, email, social media login (Facebook/Google).
 
-  2- Home Page and Cart : UI, Adding/removing items, and cart persistence.
+  2- Login : Valid and invalid credentials, forgot password flow.
 
-  3- Payment Processing : Credit card validation, first-time orders restrictions.
+  3- Home Page and Cart : UI, Adding/removing items, and cart persistence.
 
-  4- Offline Mode : Behavior when internet connectivity is lost.
+  4- Payment Processing : Credit card validation, first-time orders restrictions.
 
-  5- Real-time stock updates.
+  5- Offline Mode : Behavior when internet connectivity is lost.
+
+  6- Real-time stock updates.
   
-  6- Profile editing.   
+  7- Profile editing.   
   
 ### Admin Panel Test Cases (Coming Soon) 
 Will include test cases for the admin dashboard, including user management, inventory updates, and order tracking.
