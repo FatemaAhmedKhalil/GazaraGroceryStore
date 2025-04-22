@@ -30,6 +30,7 @@ Will include test cases for the admin dashboard, including user management, inve
 
 ## Tools and Frameworks 
 The following tools and frameworks were used to design, manage, and execute the test cases: 
+
 1- Zephyre : 
   - Zephyre was used as the primary test case management tool for organizing, executing, and tracking the test cases in this repository.
   - It provides a structured approach to defining test steps, test data, and expected results, ensuring clarity and consistency across all test cases.
