@@ -27,4 +27,14 @@ Will include test cases for the web-based version of the Gazara Grocery Store.
      
 ### Admin Panel Test Cases (Coming Soon) 
 Will include test cases for the admin dashboard, including user management, inventory updates, and order tracking.
+
+## Tools and Frameworks 
+The following tools and frameworks were used to design, manage, and execute the test cases: 
+1- Zephyre : 
+  - Zephyre was used as the primary test case management tool for organizing, executing, and tracking the test cases in this repository.
+  - It provides a structured approach to defining test steps, test data, and expected results, ensuring clarity and consistency across all test cases.
+         
+2- CSV Format : 
+  - Test cases are exported from Zephyre into .xlsx then to .csv files for version control and ease of collaboration via GitHub.
+         
   
