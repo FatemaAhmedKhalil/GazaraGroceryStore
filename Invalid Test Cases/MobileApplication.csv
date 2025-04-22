@@ -77,7 +77,7 @@ displayed.",,
 ,,,,,,,,,,,,,Tap the item.,,,,
 ,,,,,,,,,,,,,Attempt to set quantity below minimum (0 kg) and above maximum (+12 kg).,,"""-"" button becomes disabled visually (greyed out) when reaching 1kg.
 ""+"" button becomes disabled visually (greyed out) when reaching 12kg.",,
-KAN-T34,Validate Search for invalid items,Approved,,,/Invalid Test Cases/Mobile Application/Home and Explore/Invlaid Test Cases,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
+KAN-T34,Validate Search for invalid items,Approved,,,/Invalid Test Cases/Mobile Application/Home and Explore,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Enter existing and valid email.,totaXahmed@gmail.com ,,,
 ,,,,,,,,,,,,,Enter valid password for the email.,,,,
 ,,,,,,,,,,,,,"Tap the ""Login"" button.",,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Forgot Password"" Link.

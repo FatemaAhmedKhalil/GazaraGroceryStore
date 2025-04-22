@@ -1,5 +1,5 @@
 Key,Name,Status,Precondition,Objective,Folder,Priority,Component,Labels,Owner,Estimated Time,Coverage (Issues),Coverage (Pages),Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Test Script (Plain Text),Test Script (BDD)
-KAN-T45,Verify the Top bar UI Functionality,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T45,Verify the Top bar UI Functionality,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the top bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of the ""About Us,"" ""Contact,"" and ""Find Us"" buttons.",,,,
 ,,,,,,,,,,,,,"Click ""Find Us"" button.",,"A new window opens displaying all store booths located in major 
@@ -9,17 +9,17 @@ Name, Phone Number, Email, Subject, Message) with a ""Submit"" button.
 All Fields are Required.",,
 ,,,,,,,,,,,,,"Click the ""About Us"" button.",,"The page scrolls to the end of the home page, displaying a brief 
 description of the store, Contact links and Social Contact Icons.",,
-KAN-T46,Verify that a promotional message is displayed in the center of the top bar,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T46,Verify that a promotional message is displayed in the center of the top bar,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the top bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of a ""40% discount on your 1st order"" message in the 
 center.",,"A promotional message is displayed prominently in the center of the top 
 bar.",,
-KAN-T47,Verify the second bar UI Functionality,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T47,Verify the second bar UI Functionality,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the second bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of the logo on the left, the search bar in the 
 center, and ""Signup/Login"" options on the right.",,"The second bar contains all required elements, and the ""Signup/Login"" 
 options are functional.",,
-KAN-T48,Verify the third bar UI Functionality,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T48,Verify the third bar UI Functionality,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the third bar (main navigation bar).,,,,
 ,,,,,,,,,,,,,"Check for the presence of ""Home,"" ""Vegetables,"" ""Fruits,"" ""Meat,"" and ""Shop 
 All"" links.",,"The navigation bar contains all required links, with ""Home"" in bold to 
@@ -29,16 +29,16 @@ indicate the current page.",,
 ,,,,,,,,,,,,,"Navigate to the ""Meat"" section.",,"Verify that all meat items display price, weight, image, and name.",,
 ,,,,,,,,,,,,,"Navigate to the ""Shop All"" page.",,"Verify that a combined list of all available items across categories is 
 displayed.",,
-KAN-T49,Verify Recommended Items Display,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll down the home page.,,,,
+KAN-T49,Verify Recommended Items Display,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll down the home page.,,,,
 ,,,,,,,,,,,,,"Verify that images of random recommended items with suggestions to try are 
 displayed.",,Recommended items are displayed correctly.,,
-KAN-T50,"Verify ""Shop Now"" Button Functionality",Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Locate the ""Shop Now"" button on the home page.",,,,
+KAN-T50,"Verify ""Shop Now"" Button Functionality",Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Locate the ""Shop Now"" button on the home page.",,,,
 ,,,,,,,,,,,,,"Click the button and verify that it redirects to the ""Shop All"" page.",,"The user is redirected to the ""Shop All"" page.",,
-KAN-T53,Verify Multi-Option Signup,Approved,,, /Web Site/Sign-up and log-in ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to Sign-up Page.,,,,
+KAN-T53,Verify Multi-Option Signup,Approved,,,/Valid Test Cases/Web Site/Sign-up and log-in ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to Sign-up Page.,,,,
 ,,,,,,,,,,,,,"Verify that users have the option to sign up via Google, Facebook, or 
 email.",,"Users can sign up using any method, and validation rules are applied.",,
 ,,,,,,,,,,,,,"Click ""Already a Member? Login"" link.",,Navigate to login page.,,
-KAN-T54,Verify Sign-up via email,Approved,,, /Web Site/Sign-up and log-in ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to Sign-up Page.,,,,
+KAN-T54,Verify Sign-up via email,Approved,,,/Valid Test Cases/Web Site/Sign-up and log-in ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to Sign-up Page.,,,,
 ,,,,,,,,,,,,,"Verify that users have the option to sign up via Google, Facebook, or 
 email.",,"Users can sign up using any method, and validation rules are applied.",,
 ,,,,,,,,,,,,,"Click ""Already a Member? Login"" link.",,Navigate to login page.,,
@@ -49,21 +49,21 @@ email.",,"Users can sign up using any method, and validation rules are applied."
 ,,,,,,,,,,,,,Verify fill the Email Field with valid email.,totaXahmed@gmail.com , Email Field is Required.,,
 ,,,,,,,,,,,,,Verify fill the Password Field with valid password.,,"Password Field is Required and accepts minimum 8 characters include numbers 
 and letters.",,
-KAN-T56,Verify Displaying Side Notification on Adding Items.,Approved,,, /Web Site/Cart ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T56,Verify Displaying Side Notification on Adding Items.,Approved,,,/Valid Test Cases/Web Site/Cart ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that a side pop-up notification appears, displaying the item's name, 
 price, and size.",,The notification is displayed correctly.,,
 ,,,,,,,,,,,,,"Click the ""View Cart"" button in the side pop-up notification.",,The cart page opens with all added items.,,
-KAN-T57,Verify Item Addition to cart,Approved,Logged-in User.,, /Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T57,Verify Item Addition to cart,Approved,Logged-in User.,,/Valid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
-KAN-T58,Verify Item View in the cart,Approved,,, /Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T58,Verify Item View in the cart,Approved,,,/Valid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
 ,,,,,,,,,,,,,"Click ""Checkout"" Button.
 
 ",,A new window opens displaying Checkout Page.,,
-KAN-T59,Verify checkout valid data delivery details,Approved,,, /Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T59,Verify checkout valid data delivery details,Approved,,,/Valid Test Cases/Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -93,7 +93,7 @@ Accepts Numbers Only.",,
 Accepts Numbers and Characters.",,
 ,,,,,,,,,,,,,"Click ""Save & Continue"" Button",,Delivery details are saved successfully.,,
 ,,,,,,,,,,,,,"Click ""Continue Browsing"" link.",,Success return to browsing.,,
-KAN-T61,Varify Delivery Details Summary,Approved,,, /Web Site/Delivery and Payment ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T61,Varify Delivery Details Summary,Approved,,,/Valid Test Cases/Web Site/Delivery and Payment ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -125,13 +125,13 @@ Accepts Numbers and Characters.",,
 ,,,,,,,,,,,,,"Click ""Continue Browsing"" link.",,Success return to browsing.,,
 ,,,,,,,,,,,,,Verify that a summary of the details is displayed with an option to edit.,,The summary is displayed correctly.,,
 ,,,,,,,,,,,,,"Click ""Change"" link.",,Turn back to Delivery Details Page.,,
-KAN-T62,Varify Payment Method selection.,Approved,,, /Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Verify payment type selection (Cash on Delivery or Pay by Card).,,,,
+KAN-T62,Varify Payment Method selection.,Approved,,,/Valid Test Cases/Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Verify payment type selection (Cash on Delivery or Pay by Card).,,,,
 ,,,,,,,,,,,,,Verify that the system accepts the selection.,,The payment Method is selected successfully.,,
-KAN-T63,Verify Payment Method Restrictions for First-Time Orders,Approved,New user's account with no order history.,, /Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Verify payment type selection (Cash on Delivery or Pay by Card).,,,,
+KAN-T63,Verify Payment Method Restrictions for First-Time Orders,Approved,New user's account with no order history.,,/Valid Test Cases/Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Verify payment type selection (Cash on Delivery or Pay by Card).,,,,
 ,,,,,,,,,,,,,Verify that the system accepts the selection.,,The payment Method is selected successfully.,,
 ,,,,,,,,,,,,,Check available payment methods.,,"""Pay by Card"" payment must be available.
 ""Cash on Delivery"" option should be disabled/grayed.",,
-KAN-T64,Card Payment Validation,Approved,,, /Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Verify payment type selection (Cash on Delivery or Pay by Card).,,,,
+KAN-T64,Card Payment Validation,Approved,,,/Valid Test Cases/Web Site/Delivery and Payment ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Verify payment type selection (Cash on Delivery or Pay by Card).,,,,
 ,,,,,,,,,,,,,Verify that the system accepts the selection.,,The payment Method is selected successfully.,,
 ,,,,,,,,,,,,,Enter a valid card number (16 digits).,4111,"card type (Visa, Mastercard, etc.) is detected and displayed correct card 
 logo dynamically based on the first 4 digits.
@@ -153,7 +153,7 @@ Displays the input as ""**** **** **** 1234"" for security.",,
 ,,,,,,,,,,,,,Enter a valid expiry date.,,"Automatically format the input as ""MM/YY"" as the user types.",,
 ,,,,,,,,,,,,,Enter a valid CVV (3-4 digits depending on the card type).,,"Masks input as ""***"" for security.",,
 ,,,,,,,,,,,,,"Click ""Place the Order & Pay"".",,"The order is placed successfully, and a confirmation is shown.",,
-KAN-T67,Verify Editing Item Quantity in Cart,Approved,,, /Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T67,Verify Editing Item Quantity in Cart,Approved,,,/Valid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -161,7 +161,7 @@ an option to proceed to checkout.",,The cart overview and order summary are disp
 
 ",,A new window opens displaying Checkout Page.,,
 ,,,,,,,,,,,,,Modify the quantity of the item using quantity button.,,The cart reflects the updated quantity.,,
-KAN-T69,Verify Remove Item from the Cart,Approved,,, /Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T69,Verify Remove Item from the Cart,Approved,,,/Valid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -169,7 +169,7 @@ an option to proceed to checkout.",,The cart overview and order summary are disp
 
 ",,A new window opens displaying Checkout Page.,,
 ,,,,,,,,,,,,,"Click the ""Remove"" Icon next to the item.",,The item is successfully removed from the cart.,,
-KAN-T70,Verify Add Note to Item in Cart,Approved,,, /Web Site/Cart ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T70,Verify Add Note to Item in Cart,Approved,,,/Valid Test Cases/Web Site/Cart ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -178,7 +178,7 @@ an option to proceed to checkout.",,The cart overview and order summary are disp
 ",,A new window opens displaying Checkout Page.,,
 ,,,,,,,,,,,,,"Click ""Add a Note"" below the item.",,,,
 ,,,,,,,,,,,,,Enter the note.,,The note is displayed correctly below the item.,,
-KAN-T71,Verify Promo Code Application in Cart,Approved,,, /Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T71,Verify Promo Code Application in Cart,Approved,,,/Valid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -187,29 +187,29 @@ an option to proceed to checkout.",,The cart overview and order summary are disp
 ",,A new window opens displaying Checkout Page.,,
 ,,,,,,,,,,,,,"Click ""Enter Promo Code"" below the item.",,,,
 ,,,,,,,,,,,,,Enter the promo code.,,The discount is applied successfully.,,
-KAN-T72,Verify Search recommendations in search bar,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Type an item in the search bar (ex. ""mushr"").",,,,
+KAN-T72,Verify Search recommendations in search bar,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Type an item in the search bar (ex. ""mushr"").",,,,
 ,,,,,,,,,,,,,"Verify that a list of item recommendations based on partial input (ex. hows 
 all items containing ""mushroom"").
 
 ",,Search recommendations are correctly displayed.,,
-KAN-T74,Varify Profile Drop-Down Menu,Approved,,, /Web Site/Profile and Internet ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
+KAN-T74,Varify Profile Drop-Down Menu,Approved,,,/Valid Test Cases/Web Site/Profile and Internet ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
 ,,,,,,,,,,,,,"Verify that a drop-down menu appears with options: ""My Orders,"" ""My 
 Wallet,"" ""My Account,"" and ""Logout"".",,The drop-down menu is displayed correctly.,,
-KAN-T75,Varify Past Orders View,Approved,,, /Web Site/Profile and Internet ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
+KAN-T75,Varify Past Orders View,Approved,,,/Valid Test Cases/Web Site/Profile and Internet ,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
 ,,,,,,,,,,,,,"Verify that a drop-down menu appears with options: ""My Orders,"" ""My 
 Wallet,"" ""My Account,"" and ""Logout"".",,The drop-down menu is displayed correctly.,,
 ,,,,,,,,,,,,,"Navigate to ""My Orders"" from the profile menu.",,,,
 ,,,,,,,,,,,,,"Verify that a list of past orders is displayed, including order date, total 
 price, recipient details, delivery day, and options to ""Buy Again"" or ""View 
 Item"".",,All past orders are displayed with the required details.,,
-KAN-T76,Varify Viewing and Editing Saved Address,Approved,,, /Web Site/Profile and Internet ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Navigate to ""My Address"".",,"Opens a page where users can view their current saved address details, 
+KAN-T76,Varify Viewing and Editing Saved Address,Approved,,,/Valid Test Cases/Web Site/Profile and Internet ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"Navigate to ""My Address"".",,"Opens a page where users can view their current saved address details, 
 including street name, house number, floor number, and associated phone 
 number and option to edit or change this address or add a completely new 
 additional address.",,
 ,,,,,,,,,,,,,Verify that the current saved address is displayed.,,,,
 ,,,,,,,,,,,,,Edit the address and save changes.,,The address is updated successfully.,,
 ,,,,,,,,,,,,,Add a new additional address with valid details and save.,,The new address is added successfully.,,
-KAN-T77,Varify View Personal Information,Approved,,, /Web Site/Profile and Internet ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
+KAN-T77,Varify View Personal Information,Approved,,,/Valid Test Cases/Web Site/Profile and Internet ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Click the profile icon.,,,,
 ,,,,,,,,,,,,,"Verify that a drop-down menu appears with options: ""My Orders,"" ""My 
 Wallet,"" ""My Account,"" and ""Logout"".",,The drop-down menu is displayed correctly.,,
 ,,,,,,,,,,,,,"Navigate to ""My Account"".",,,,
@@ -219,14 +219,14 @@ address details including ""street"", ""city"" and ""zip code"") is displayed.",
 ,,,,,,,,,,,,,"Edit the information and Click ""Discard"".",,"The system discard any unsaved changes.
 
 ",,
-KAN-T81,Verify Log-in Functionality,Approved,,, /Web Site/Sign-up and log-in ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T81,Verify Log-in Functionality,Approved,,,/Valid Test Cases/Web Site/Sign-up and log-in ,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the second bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of the logo on the left, the search bar in the 
 center, and ""Signup/Login"" options on the right.",,"The second bar contains all required elements, and the ""Signup/Login"" 
 options are functional.",,
 ,,,,,,,,,,,,,"Click ""Login"" link.",,,,
 ,,,,,,,,,,,,,"Verify that users have the option to login via Google, Facebook, or email.",,"Users can login using any method, and validation rules are applied.",,
-KAN-T82,Verify forget password functionality,Approved,,, /Web Site/Sign-up and log-in ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
+KAN-T82,Verify forget password functionality,Approved,,,/Valid Test Cases/Web Site/Sign-up and log-in ,Normal,,Optional,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Open the home page of the website.,,,,
 ,,,,,,,,,,,,,Locate the second bar.,,,,
 ,,,,,,,,,,,,,"Check for the presence of the logo on the left, the search bar in the 
 center, and ""Signup/Login"" options on the right.",,"The second bar contains all required elements, and the ""Signup/Login"" 
@@ -238,11 +238,11 @@ options are functional.",,
 ,,,,,,,,,,,,,"Enter a new password twice and Enter ""Set New Password"" Button.",,Update password in the system.,,
 ,,,,,,,,,,,,,Try login with email and the new password.,,Navigate to the Home Page.,,
 ,,,,,,,,,,,,,"Tap the ""Back to Login"" link.",,Navigate back to the Login page.,,
-KAN-T84,Verify Order Cancellation at Various Stages,Approved,Active order exists in the system.,, /Web Site/Delivery and Payment ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"During payment processing, click ""Cancel Order""",,Cancellation succeeds immediately.,,
+KAN-T84,Verify Order Cancellation at Various Stages,Approved,Active order exists in the system.,,/Valid Test Cases/Web Site/Delivery and Payment ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,"During payment processing, click ""Cancel Order""",,Cancellation succeeds immediately.,,
 ,,,,,,,,,,,,,Try cancel the Pending order.,,Cancellation succeeds immediately.,,
 ,,,,,,,,,,,,,Try cancel order during processing.,,Cancellation succeeds.,,
 ,,,,,,,,,,,,,Try cancel after shipping.,,Cancellation succeeds.,,
-KAN-T85,Verify system behavior for out-of-stock items in cart,Approved,,, /Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
+KAN-T85,Verify system behavior for out-of-stock items in cart,Approved,,,/Valid Test Cases/Web Site/Cart ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Scroll to a product.,,,,
 ,,,,,,,,,,,,,"Click ""Add to Cart"" Button.",,item added to the cart.,,
 ,,,,,,,,,,,,,"Verify that the cart displays a list of added items and order summary, and 
 an option to proceed to checkout.",,The cart overview and order summary are displayed correctly.,,
@@ -254,7 +254,7 @@ an option to proceed to checkout.",,The cart overview and order summary are disp
 ""Proceed""Checkout button becomes disabled.
 
 ",,
-KAN-T86,Verify Real-Time stock status updates,Approved,,, /Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Force items stock to 'out of stock' (via admin panel),," The items update to ""Out of Stock"" status within 5 seconds.",,
+KAN-T86,Verify Real-Time stock status updates,Approved,,,/Valid Test Cases/Web Site/Home Page and Search ,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Force items stock to 'out of stock' (via admin panel),," The items update to ""Out of Stock"" status within 5 seconds.",,
 ,,,,,,,,,,,,,"Force items stock to 'in stock' (via admin panel)
 
 ",,The items show normal status.,,
