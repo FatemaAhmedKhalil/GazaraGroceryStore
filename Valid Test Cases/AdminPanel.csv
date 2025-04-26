@@ -1,0 +1,591 @@
+Key,Name,Status,Precondition,Objective,Folder,Priority,Component,Labels,Owner,Estimated Time,Coverage (Issues),Coverage (Pages),Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Test Script (Plain Text),Test Script (BDD)
+KAN-T87,Verify successful login with valid credentials.,Approved,,,/Valid test Cases/Admin Panel/Sign-In,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+KAN-T88,"Verify functionality of the ""Forgot Password"" link.",Approved,,,/Valid test Cases/Admin Panel/Sign-In,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,"Click the ""Forgot Password"" link.",,,,
+,,,,,,,,,,,,,Enter a valid email address.,,,,
+,,,,,,,,,,,,,Submit the form.,,"A confirmation message is displayed: ""A password reset link has been sent 
+to your email.""",,
+KAN-T89,"Verify ""Remember Me"" functionality.",Approved,,,/Valid test Cases/Admin Panel/Sign-In,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,,,
+,,,,,,,,,,,,,Enter valid credentials and log in.,,,,
+,,,,,,,,,,,,,Log out and revisit the sign-in page.,,The email field is pre-filled with the previously entered email.,,
+KAN-T91,Verify sidebar navigation functionality.,Approved,,,/Valid test Cases/Admin Panel/Dashboard,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+KAN-T92,Verify Center Panel (Main Dashboard) display.,Approved,,,/Valid test Cases/Admin Panel/Dashboard,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,Observe the profile section in the top-right corner.,,The super admin's profile picture and name are displayed correctly.,,
+,,,,,,,,,,,,,Observe the Search Bar located at the top center of the page.,,The Search Bar is displayed correctly.,,
+,,,,,,,,,,,,,Observe the Notification Menu next to the profile section.,,The Notification Menu is displayed correctly.,,
+,,,,,,,,,,,,,Observe the Welcome Text positioned below the search bar.,,"The Welcome Text saying:
+ ""Good [day time], [Super Admin Name]""
+replaceable with the day time: morning, evening and the logged-in super 
+admin's name.",,
+KAN-T93,Verify Cards and Revenue Overview Bar chart functionality.,Approved,,,/Valid test Cases/Admin Panel/Dashboard,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,Observe the profile section in the top-right corner.,,The super admin's profile picture and name are displayed correctly.,,
+,,,,,,,,,,,,,Observe the Search Bar located at the top center of the page.,,The Search Bar is displayed correctly.,,
+,,,,,,,,,,,,,Observe the Notification Menu next to the profile section.,,The Notification Menu is displayed correctly.,,
+,,,,,,,,,,,,,Observe the Welcome Text positioned below the search bar.,,"The Welcome Text saying:
+ ""Good [day time], [Super Admin Name]""
+replaceable with the day time: morning, evening and the logged-in super 
+admin's name.",,
+,,,,,,,,,,,,,Verify revenue card data display.,,"The card Displays the combined revenue of all branches.
+Includes an indication arrow to show whether the revenue is increasing or 
+decreasing compared to previous data.
+Shows the last update date below the revenue number, formatted as: ""Update: 
+[Month Day, Year]"".",,
+,,,,,,,,,,,,,Verify Total Products card data display.,,"The card Displays the total number of products across all branches.
+Includes an indication arrow to show whether the product count is 
+increasing or decreasing compared to previous data.
+Shows the last update date below the product number, formatted as: ""Update: 
+[Month Day, Year]"".",,
+,,,,,,,,,,,,,Verify Total Orders card data display.,,"The card Displays the total number of orders across all branches.
+Includes an indication arrow to show whether the order count is increasing 
+or decreasing compared to previous data.
+Shows the last update date below the order number, formatted as: ""Update: 
+[Month Day, Year]"".",,
+,,,,,,,,,,,,,Observe the bar chart in the Revenue Overview card.,,The bar chart displays weekly revenue data correctly.,,
+,,,,,,,,,,,,,"Verify the table below the bar chart with columns: ""Region, ""Orders"", 
+""Revenue"".",,"Region Column displays The name of the region (e.g., Madinaty, Al-Rehab).
+Orders Column displays Total number of orders from that region.
+Revenue Column displays Total revenue generated from that region.",,
+,,,,,,,,,,,,,"Click ""View All"" Button.",,Displays a complete list of regional revenue and order statistics.,,
+KAN-T94,Verify Pie chart filter functionality.,Approved,,,/Valid test Cases/Admin Panel/Dashboard,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,Observe the profile section in the top-right corner.,,The super admin's profile picture and name are displayed correctly.,,
+,,,,,,,,,,,,,Observe the Search Bar located at the top center of the page.,,The Search Bar is displayed correctly.,,
+,,,,,,,,,,,,,Observe the Notification Menu next to the profile section.,,The Notification Menu is displayed correctly.,,
+,,,,,,,,,,,,,Observe the Welcome Text positioned below the search bar.,,"The Welcome Text saying:
+ ""Good [day time], [Super Admin Name]""
+replaceable with the day time: morning, evening and the logged-in super 
+admin's name.",,
+,,,,,,,,,,,,,Verify pie chart display.,,A pie chart displaying the percentage breakdown of total orders by region.,,
+,,,,,,,,,,,,,"Verify Dropdown menu above the pie chart to filter the data by: ""Current 
+month"", ""Previous month"", ""Current quarter"", ""Current year"".",,The pie chart updates to reflect the selected time period.,,
+KAN-T95,Verify Stats Dropdown and report download functionality.,Approved,,,/Valid test Cases/Admin Panel/Dashboard,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,"Verify a Dropdown menu labeled ""This Month"", positioned at the top right of 
+the dashboard.",,"Displays a Dropdown options: ""Current Month"", ""Previous Month"", ""Current 
+Quarter"", ""Current Year"".",,
+,,,,,,,,,,,,,"Verify a ""Download Report"" button located next to the ""This Month"" 
+Dropdown.",,"""Download Report"" button is displayed and clickable.",,
+,,,,,,,,,,,,,"Click the ""Download Report"" button.",,"A pop-up window appears prompting the super admin to choose a file format: 
+""Excel"", ""PDF"".",,
+,,,,,,,,,,,,,"Select ""PDF"" and ""Excel"" format.",,"A Report containing all dashboard data (stats, charts, and tables) is 
+downloaded in the selected format.",,
+KAN-T96,Verify order details view functionality.,Approved,,,/Valid test Cases/Admin Panel/Dashboard,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Navigate to the sign-in page.,,,,
+,,,,,,,,,,,,,Enter a valid email address and password.,,Password displays with secure masking.,,
+,,,,,,,,,,,,,"Check the ""Remember Me"" checkbox.",,"""Remember Me"" checkbox is displayed correctly.",,
+,,,,,,,,,,,,,"Check the ""Forgot Password"" link.",,"""Forgot Password"" link is displayed correctly.",,
+,,,,,,,,,,,,,"Check for ""Gazara Logo"".",,Gazara logo is displayed prominently at the top of the page.,,
+,,,,,,,,,,,,,Check for a Welcome Text.,,"A welcome text under the logo, greeting the super admin is displayed",,
+,,,,,,,,,,,,,"Click the ""Sign In"" button.",,The super admin is redirected to the dashboard page.,,
+,,,,,,,,,,,,,Verify Orders Card display.,,"Orders Card is displayed containing a table with columns: ""Order ID"", 
+""Date"", ""Customer Name"", ""Amount"", ""Status"", ""Action"".",,
+,,,,,,,,,,,,,"Verify ""Order ID"" display.",,Displays a 6-digit unique identifier for each order.,,
+,,,,,,,,,,,,,"Verify ""Date"" display.",,"Displays the date the order was placed in the format: ""DD/MM/YYYY"" or as 
+per system localization settings.",,
+,,,,,,,,,,,,,"Verify ""Customer Name"" display.",,Displays the full name of the customer who placed the order.,,
+,,,,,,,,,,,,,"Verify ""Amount"" display.",,Displays the total amount of the order in the applicable currency.,,
+,,,,,,,,,,,,,"Verify ""Status"" display.",,"Displays the order's current status as tags with visual cues: ""Pending in 
+yellow tag"", Canceled in red tag"", ""Delivered in green tag"".",,
+,,,,,,,,,,,,,"Verify ""Action"" display.",,"Displays a clickable buttons or icons: ""View"", ""Edit"", ""Delete"".",,
+,,,,,,,,,,,,,"Click the ""View"" button or icon for an order in the Orders Card table.",,A detailed view of the selected order is displayed.,,
+,,,,,,,,,,,,,"Click the ""Edit"" button or icon for an order in the Orders Card table.",, Allows modification of order details.,,
+,,,,,,,,,,,,,"Click the ""Delete"" button or icon for an order in the Orders Card table.",,The order is removed from the table.,,
+KAN-T98,Verify Products Table UI,Approved,A Product is already added.,,/Valid test Cases/Admin Panel/Products,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Product Tab"" in the sidebar.",,"Verify Table Displays Correctly with (10 products by default at a time and 
+navigation arrows to browse products 10 by 10).",,
+,,,,,,,,,,,,,"Verify Table Displays Correctly with  (Product Name, Price, Quantity) 
+Columns.",,"The table displays correctly with Product Names, correct Prices and 
+Quantities.
+
+",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Status Columns.,,"The table displays tags indicating whether the product is In Stock (green 
+tag) or Out of Stock (red tag).",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Action Columns.,,"The table Provides the following options as clickable buttons or icons: 
+""View"", ""Edit"", ""Delete"".",,
+,,,,,,,,,,,,,"Click the ""View"" button or icon.",,A detailed view of the selected product is displayed.,,
+,,,,,,,,,,,,,"Click the ""Edit"" button or icon.",, Allows modification of product details.,,
+,,,,,,,,,,,,,"Click the ""Delete"" button or icon.",,The product is removed from the table.,,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Search Bar.,,"The table Displays with Search Bar Allows the super admin to search for 
+specific products by name.",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Filter Option.,,"The table Enables filtering of products by attributes: ""Product category"" 
+,""Price range"", ""Status"".",,
+,,,,,,,,,,,,,"Verify Table Displays Correctly with ""Add New Product"" Button.",,The table Provides an option to add a new product to the table.,,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Pagination Summary.,,"The table displays a text showing the current range of products being 
+viewed at the bottom of the card.
+Format: ""Showing (10) out of (150) products"" (with dynamic values).",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Rows Per Page Option.,,"The table Provides a dropdown menu to change the number of products 
+displayed per page, with options for:
+""10 products (default)"", ""20 products"", ""30 products"", ""All products"".",,
+KAN-T99,Verify Add a New Product ,Approved,,,/Valid test Cases/Admin Panel/Products,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Product Tab"" in the sidebar.",,"Verify Table Displays Correctly with (10 products by default at a time and 
+navigation arrows to browse products 10 by 10).",,
+,,,,,,,,,,,,,"Verify Table Displays Correctly with  (Product Name, Price, Quantity) 
+Columns.",,"The table displays correctly with Product Names, correct Prices and 
+Quantities.
+
+",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Status Columns.,,"The table displays tags indicating whether the product is In Stock (green 
+tag) or Out of Stock (red tag).",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Action Columns.,,"The table Provides the following options as clickable buttons or icons: 
+""View"", ""Edit"", ""Delete"".",,
+,,,,,,,,,,,,,"Click the ""View"" button or icon.",,A detailed view of the selected product is displayed.,,
+,,,,,,,,,,,,,"Click the ""Edit"" button or icon.",, Allows modification of product details.,,
+,,,,,,,,,,,,,"Click the ""Delete"" button or icon.",,The product is removed from the table.,,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Search Bar.,,"The table Displays with Search Bar Allows the super admin to search for 
+specific products by name.",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Filter Option.,,"The table Enables filtering of products by attributes: ""Product category"" 
+,""Price range"", ""Status"".",,
+,,,,,,,,,,,,,"Verify Table Displays Correctly with ""Add New Product"" Button.",,The table Provides an option to add a new product to the table.,,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Pagination Summary.,,"The table displays a text showing the current range of products being 
+viewed at the bottom of the card.
+Format: ""Showing (10) out of (150) products"" (with dynamic values).",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Rows Per Page Option.,,"The table Provides a dropdown menu to change the number of products 
+displayed per page, with options for:
+""10 products (default)"", ""20 products"", ""30 products"", ""All products"".",,
+,,,,,,,,,,,,,"Click ""Add New Product"" button.",,"Displays a breadcrumb trail at the top of the card indicating the current 
+location: ""Products > Add New Product"".",,
+,,,,,,,,,,,,,Enter Product Name.,,Required Product Name Field Accepts Text input for the name of the product.,,
+,,,,,,,,,,,,,Select Product Category.,,"Required Product Category Field Provides Dropdown menu with the following 
+options: ""Seafood"", ""Salads"", ""Meats"", ""Veggies"", ""Fruits"".",,
+,,,,,,,,,,,,,Enter Product Price.,,"Required Product Price Field Accepts Numeric input for the product's price 
+in EGP LE.",,
+,,,,,,,,,,,,,Enter Product Quantity.,,"Required Product Quantity Field Accepts Numeric input for the quantity of 
+the product.",,
+,,,,,,,,,,,,,Enter Product Discount.,,"Optional Product Discount Field Accepts Numeric input for applying a 
+discount.
+Default Value: 0 if left blank.
+Discount Format Options: ""Percentage (%)"" or ""Fixed Amount EGP LE 
+(selectable by the super admin)"".",,
+,,,,,,,,,,,,,Enter Product HSN.,,"Required Product HSN Field Accepts Numeric input for a 6-digit code 
+required for product export.",,
+,,,,,,,,,,,,,Enter Product Status.,,"Required Product Status Field Provides Dropdown menu with two options: ""In 
+Stock"" and ""Out of Stock"".",,
+,,,,,,,,,,,,,Upload Photo.,,"Required Product Photo Field Provides Drag-and-drop area or file selection 
+button to upload a product image in Supported Formats: .jpeg, .png.",,
+,,,,,,,,,,,,,"Click ""Add"" button.",,Proceed to the review page.,,
+,,,,,,,,,,,,,"Click ""Cancel"" button.",,"Cancels the action and redirects the user back to the Products Page without 
+saving changes.",,
+KAN-T102,Confirm Product Details,Approved,,,/Valid test Cases/Admin Panel/Products,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Product Tab"" in the sidebar.",,"Verify Table Displays Correctly with (10 products by default at a time and 
+navigation arrows to browse products 10 by 10).",,
+,,,,,,,,,,,,,"Verify Table Displays Correctly with  (Product Name, Price, Quantity) 
+Columns.",,"The table displays correctly with Product Names, correct Prices and 
+Quantities.
+
+",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Status Columns.,,"The table displays tags indicating whether the product is In Stock (green 
+tag) or Out of Stock (red tag).",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Action Columns.,,"The table Provides the following options as clickable buttons or icons: 
+""View"", ""Edit"", ""Delete"".",,
+,,,,,,,,,,,,,"Click the ""View"" button or icon.",,A detailed view of the selected product is displayed.,,
+,,,,,,,,,,,,,"Click the ""Edit"" button or icon.",, Allows modification of product details.,,
+,,,,,,,,,,,,,"Click the ""Delete"" button or icon.",,The product is removed from the table.,,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Search Bar.,,"The table Displays with Search Bar Allows the super admin to search for 
+specific products by name.",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Filter Option.,,"The table Enables filtering of products by attributes: ""Product category"" 
+,""Price range"", ""Status"".",,
+,,,,,,,,,,,,,"Verify Table Displays Correctly with ""Add New Product"" Button.",,The table Provides an option to add a new product to the table.,,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Pagination Summary.,,"The table displays a text showing the current range of products being 
+viewed at the bottom of the card.
+Format: ""Showing (10) out of (150) products"" (with dynamic values).",,
+,,,,,,,,,,,,,Verify Table Displays Correctly with Rows Per Page Option.,,"The table Provides a dropdown menu to change the number of products 
+displayed per page, with options for:
+""10 products (default)"", ""20 products"", ""30 products"", ""All products"".",,
+,,,,,,,,,,,,,"Click ""Add New Product"" button.",,"Displays a breadcrumb trail at the top of the card indicating the current 
+location: ""Products > Add New Product"".",,
+,,,,,,,,,,,,,Enter Product Name.,,Required Product Name Field Accepts Text input for the name of the product.,,
+,,,,,,,,,,,,,Select Product Category.,,"Required Product Category Field Provides Dropdown menu with the following 
+options: ""Seafood"", ""Salads"", ""Meats"", ""Veggies"", ""Fruits"".",,
+,,,,,,,,,,,,,Enter Product Price.,,"Required Product Price Field Accepts Numeric input for the product's price 
+in EGP LE.",,
+,,,,,,,,,,,,,Enter Product Quantity.,,"Required Product Quantity Field Accepts Numeric input for the quantity of 
+the product.",,
+,,,,,,,,,,,,,Enter Product Discount.,,"Optional Product Discount Field Accepts Numeric input for applying a 
+discount.
+Default Value: 0 if left blank.
+Discount Format Options: ""Percentage (%)"" or ""Fixed Amount EGP LE 
+(selectable by the super admin)"".",,
+,,,,,,,,,,,,,Enter Product HSN.,,"Required Product HSN Field Accepts Numeric input for a 6-digit code 
+required for product export.",,
+,,,,,,,,,,,,,Enter Product Status.,,"Required Product Status Field Provides Dropdown menu with two options: ""In 
+Stock"" and ""Out of Stock"".",,
+,,,,,,,,,,,,,Upload Photo.,,"Required Product Photo Field Provides Drag-and-drop area or file selection 
+button to upload a product image in Supported Formats: .jpeg, .png.",,
+,,,,,,,,,,,,,"Click ""Add"" button.",,Proceed to the review page.,,
+,,,,,,,,,,,,,"Click ""Cancel"" button.",,"Cancels the action and redirects the user back to the Products Page without 
+saving changes.",,
+,,,,,,,,,,,,,Add a new product and proceed to the review page.,,"The page should display all the details entered by the super admin in a 
+read-only format for review:
+1. Product Name
+2. Product Category
+3. Price (EGP LE)
+4. Quantity
+5. Discount
+6. HSN Code
+7. Status (In Stock/Out of Stock)
+8. Uploaded Photo Displays as a thumbnail image of the uploaded file.",,
+,,,,,,,,,,,,,"Click the ""Confirm"" button.",,"Saves the product details permanently to the database.
+Redirects the super admin back to the Products Table page.",,
+,,,,,,,,,,,,,"Click the ""Back"" button.",,"Redirects the super admin back to the Add New Product form.
+Retains all previously entered data, allowing the super admin to make 
+changes if necessary.",,
+KAN-T105,Verify User Table UI,Approved,,,/Valid test Cases/Admin Panel/User,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Users Tab"" in the sidebar.",,"The table displays the columns:
+1. User Name: Full name of the user.
+2. Mobile Number: User's contact number.
+3. Email Address: User's registered email.
+4. Address: Full address of the user.
+5. Action: ""View"", ""Edit"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,"A Filter Button located in the top-right corner of the card to filter user 
+records by region.",,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,A Search Bar allows the super admin to search for a specific user.,,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+KAN-T106,Verify Filter Users by Region,Approved,,,/Valid test Cases/Admin Panel/User,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Users Tab"" in the sidebar.",,"The table displays the columns:
+1. User Name: Full name of the user.
+2. Mobile Number: User's contact number.
+3. Email Address: User's registered email.
+4. Address: Full address of the user.
+5. Action: ""View"", ""Edit"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,"A Filter Button located in the top-right corner of the card to filter user 
+records by region.",,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,A Search Bar allows the super admin to search for a specific user.,,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,Use the filter dropdown to select a region.,,The table displays users from the selected region.,,
+KAN-T108,Verify Admin Table UI,Approved,,,/Valid test Cases/Admin Panel/Admin,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Admin Tab"" in the sidebar.",,"The table displays the columns:
+1- Name: sorts and displays Full name of the admin/supervisor.
+2. Branch Region: sorts and displays The branch the admin is assigned to.
+3. Email Address: sorts and displays Contact email of the admin.
+4. Role: Displays the role of the admin (e.g., Branch Manager, Assistant 
+Manager).
+5. Action: ""View"", ""Edit"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,A Search Bar allows searching for a specific admin.,,
+,,,,,,,,,,,,,"Verify the ""Add Admin"" Button.",,Located at the top-left of the card.,,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+KAN-T110,Verify Admin's Filter,Approved,,,/Valid test Cases/Admin Panel/Admin,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Admin Tab"" in the sidebar.",,"The table displays the columns:
+1- Name: sorts and displays Full name of the admin/supervisor.
+2. Branch Region: sorts and displays The branch the admin is assigned to.
+3. Email Address: sorts and displays Contact email of the admin.
+4. Role: Displays the role of the admin (e.g., Branch Manager, Assistant 
+Manager).
+5. Action: ""View"", ""Edit"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,A Search Bar allows searching for a specific admin.,,
+,,,,,,,,,,,,,"Verify the ""Add Admin"" Button.",,Located at the top-left of the card.,,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,Use the filter by Branch region.,,The table displays admins based on selected Branch region.,,
+,,,,,,,,,,,,,Use the filter by Role.,,The table displays admins based on selected Role.,,
+KAN-T112,Verify Add a New Admin,Approved,,,/Valid test Cases/Admin Panel/Admin,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Admin Tab"" in the sidebar.",,"The table displays the columns:
+1- Name: sorts and displays Full name of the admin/supervisor.
+2. Branch Region: sorts and displays The branch the admin is assigned to.
+3. Email Address: sorts and displays Contact email of the admin.
+4. Role: Displays the role of the admin (e.g., Branch Manager, Assistant 
+Manager).
+5. Action: ""View"", ""Edit"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,A Search Bar allows searching for a specific admin.,,
+,,,,,,,,,,,,,"Verify the ""Add Admin"" Button.",,Located at the top-left of the card.,,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,"Click ""Add Admin"" button.",,Opens a form where the super admin can add a new admin/supervisor.,,
+,,,,,,,,,,,,,Enter Full Name.,,Required Admin Full Name Field Accepts Text input.,,
+,,,,,,,,,,,,,Enter Email Address.,,"Required Email Address Field Accepts Text input following standard email 
+format.",,
+,,,,,,,,,,,,,Enter Branch Region.,,"Required Branch Region Field Provides Dropdown menu listing available 
+branch regions.",,
+,,,,,,,,,,,,,Enter The Role.,,"Required Role Field Provides Dropdown with predefined roles: ""Branch 
+Manager"", ""Assistant Manager"", ""Inventory Manager"", ""Order Supervisor"", 
+""Customer Support Lead"".",,
+,,,,,,,,,,,,,Enter Phone Number.,,Optional Phone Number Field Accepts Numeric input.,,
+,,,,,,,,,,,,,Enter Password.,,Required Password Field Accepts Text input.,,
+,,,,,,,,,,,,,"Click ""Submit"" button.",,Saves the new admin and adds them to the table.,,
+,,,,,,,,,,,,,"Click ""Cancel"" button.",,Discards the form and redirects back to the admin table.,,
+KAN-T114,Verify download functionality.,Approved,,,/Valid test Cases/Admin Panel/Admin,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Admin Tab"" in the sidebar.",,"The table displays the columns:
+1- Name: sorts and displays Full name of the admin/supervisor.
+2. Branch Region: sorts and displays The branch the admin is assigned to.
+3. Email Address: sorts and displays Contact email of the admin.
+4. Role: Displays the role of the admin (e.g., Branch Manager, Assistant 
+Manager).
+5. Action: ""View"", ""Edit"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,A Search Bar allows searching for a specific admin.,,
+,,,,,,,,,,,,,"Verify the ""Add Admin"" Button.",,Located at the top-left of the card.,,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,"Click ""Download"" button.",,"A popup window prompts the user to select the desired format: PDF, Excel.",,
+,,,,,,,,,,,,,"Select ""PDF"" and ""Excel"" format.",,A Report containing all admin records is downloaded in the selected format.,,
+KAN-T115,Verify Payment Table UI,Approved,,,/Valid test Cases/Admin Panel/Payment,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Payment Tab"" in the sidebar.",,"The table displays the columns:
+1. Transaction ID (TXID): Non-editable and sortable unique identifiers 
+generated using precise timestamps (millisecond or microsecond).
+2. Customer Name: Sortable names of the customers who made the transaction.
+3. Date: Sortable precise date and time of the transaction initiation.
+4. Type: Indicates the Sortable payment method.
+5. Action: ""View"", ""Refund"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,"A Search Bar allows searching for a specific Transaction ID, Customer Name, 
+or Date.",,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+KAN-T116,Verify Payment's Filter ,Approved,,,/Valid test Cases/Admin Panel/Payment,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Payment Tab"" in the sidebar.",,"The table displays the columns:
+1. Transaction ID (TXID): Non-editable and sortable unique identifiers 
+generated using precise timestamps (millisecond or microsecond).
+2. Customer Name: Sortable names of the customers who made the transaction.
+3. Date: Sortable precise date and time of the transaction initiation.
+4. Type: Indicates the Sortable payment method.
+5. Action: ""View"", ""Refund"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,"A Search Bar allows searching for a specific Transaction ID, Customer Name, 
+or Date.",,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,Use the filter by Payment Type (Cash).,,The table displays transaction based on Cash payment.,,
+,,,,,,,,,,,,,Use the filter by Payment Type (Credit Card).,,The table displays transaction based on Credit Card payment.,,
+,,,,,,,,,,,,,"Use the filter by Date Range.
+.",,The table displays transaction based on the Date Range.,,
+KAN-T117,Verify download functionality. ,Approved,,,/Valid test Cases/Admin Panel/Payment,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Payment Tab"" in the sidebar.",,"The table displays the columns:
+1. Transaction ID (TXID): Non-editable and sortable unique identifiers 
+generated using precise timestamps (millisecond or microsecond).
+2. Customer Name: Sortable names of the customers who made the transaction.
+3. Date: Sortable precise date and time of the transaction initiation.
+4. Type: Indicates the Sortable payment method.
+5. Action: ""View"", ""Refund"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,"A Search Bar allows searching for a specific Transaction ID, Customer Name, 
+or Date.",,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,"Click ""Download"" button.",,"A popup window prompts the user to select the desired format: PDF, Excel.",,
+,,,,,,,,,,,,,"Select ""PDF"" and ""Excel"" format.",,"A Report containing all Payment records is downloaded in the selected 
+format.",,
+KAN-T118,Verify Refund Transaction,Approved,,,/Valid test Cases/Admin Panel/Payment,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,"Clicks the ""Payment Tab"" in the sidebar.",,"The table displays the columns:
+1. Transaction ID (TXID): Non-editable and sortable unique identifiers 
+generated using precise timestamps (millisecond or microsecond).
+2. Customer Name: Sortable names of the customers who made the transaction.
+3. Date: Sortable precise date and time of the transaction initiation.
+4. Type: Indicates the Sortable payment method.
+5. Action: ""View"", ""Refund"", ""Delete"" Icons or Buttons with correct 
+functionality.",,
+,,,,,,,,,,,,,"Verify the ""Filter"" Button.",,Located at the top-right corner of the card.,,
+,,,,,,,,,,,,,Verify the Search Bar Functionality.,,"A Search Bar allows searching for a specific Transaction ID, Customer Name, 
+or Date.",,
+,,,,,,,,,,,,,"Verify the ""Download"" Button.",,"Located at the top-right of the card, next to the Filter Button.",,
+,,,,,,,,,,,,,Verify Pagination and Record Displaying and functionality.,,"At the bottom of the table:
+1. Display the current page number and total pages.
+2. arrows to navigate between pages.
+3. Option to select the number of records displayed per page.",,
+,,,,,,,,,,,,,"Click the ""Refund"" button for a transaction.",,,,
+,,,,,,,,,,,,,"Confirm the refund in the pop-up, if applicable.",,"The transaction status is updated to ""Refunded"".",,
+KAN-T122,Verify Appearance Customization,Approved,,,/Valid test Cases/Admin Panel/Settings,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,"Locate the ""Change Appearance"" dropdown.",,,,
+,,,,,,,,,,,,,"Change between ""Dark Mode"" and ""Light Mode"".",,"The interface switches to dark and light modes with inverted colors, and 
+the setting persists across sessions.",,
+KAN-T123,Verify Language Customization,Approved,,,/Valid test Cases/Admin Panel/Settings,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,"Locate the ""Change Language"" dropdown.",,,,
+,,,,,,,,,,,,,"Change between ""Arabic"", ""English"" and ""French"".",,"All visible text throughout the admin panel updates to the selected 
+language dynamically.",,
+KAN-T124,Verify Security Settings,Approved,,,/Valid test Cases/Admin Panel/Settings,High,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,"Locate the ""Two-Factor Authentication"" toggle.",,,,
+,,,,,,,,,,,,,"Toggle the button to enable 2FA.
+
+",,,,
+,,,,,,,,,,,,,Follow the prompts to set up 2FA using a mobile app.,,"A message is displayed: ""2FA has been successfully enabled."" Subsequent 
+logins require entering a one-time passcode (OTP).",,
+,,,,,,,,,,,,,Toggle the button to disable 2FA.,,"A message is displayed: ""2FA is currently disabled."" Subsequent logins no 
+longer require OTP.",,
+KAN-T125,Verify Mobile Push Notifications,Approved,,,/Valid test Cases/Admin Panel/Settings,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,"Locate the ""Mobile Notifications"" toggle.",,"A confirmation message is displayed: ""Mobile notifications have been 
+enabled"".",,
+,,,,,,,,,,,,,Toggle the button to disable notifications.,,"A confirmation message is displayed: ""Mobile notifications have been 
+disabled"".",,
+KAN-T126,Verify Disktop Push Notifications,Approved,,,/Valid test Cases/Admin Panel/Settings,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,"Locate the ""Desktop Notifications"" toggle.",,"A confirmation message is displayed: ""Desktop notifications have been 
+enabled"".",,
+,,,,,,,,,,,,,Toggle the button to disable notifications.,,"A confirmation message is displayed: ""Desktop notifications have been 
+disabled"".",,
+KAN-T127,Verify Email Push Notifications,Approved,,,/Valid test Cases/Admin Panel/Settings,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,"Locate the ""Email Notifications"" toggle.",,"A confirmation message is displayed: ""Email notifications have been 
+enabled"".",,
+,,,,,,,,,,,,,Toggle the button to disable notifications.,,"A confirmation message is displayed: ""Email notifications have been 
+disabled"".",,
+KAN-T128,Verify Visual Layout,Approved,,,/Valid test Cases/Admin Panel/Settings,Low,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
+Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
+The respective page loads correctly for each tab.",,
+,,,,,,,,,,,,,Toggle the dark/light mode switch in the sidebar.,,The dashboard theme changes accordingly and persists across sessions.,,
+,,,,,,,,,,,,,Navigate to the Settings Page.,,,,
+,,,,,,,,,,,,,Observe each card's title and descriptive text.,,"Each card displays a clear title (""Appearance"", ""Language"",""Security"", 
+""Notifications"") and descriptive text for each toggle/drop-down to guide 
+the super admin.",,
