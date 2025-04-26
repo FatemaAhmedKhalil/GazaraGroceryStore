@@ -173,7 +173,7 @@ functionality.",,
 2. arrows to navigate between pages.
 3. Option to select the number of records displayed per page.",,
 ,,,,,,,,,,,,,Enter non-existing Admin name in Search Bar.,,No thing Displays.,,
-KAN-T120,Validate Search for invalid data,Approved,,,/Invalid Test Cases/Admin Panel/Payment,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
+KAN-T120,Validate Search for invalid payment data,Approved,,,/Invalid Test Cases/Admin Panel/Payment,Normal,,,712020:137f6cee-63b3-40de-baf1-49186e642afd,,,,Log in as the super admin.,,,,
 ,,,,,,,,,,,,,"Click on each tab in the sidebar (Dashboard, Orders, Users, Admins, 
 Payments, Settings, and an option to switch to dark/light mode).",,"Dashboard is default active tab.
 The respective page loads correctly for each tab.",,
